@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*header css*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 133px 0 0px;
+  position: fixed;
+  background: #fff;
+  width: 100%;
+  z-index: 3;
+  top: 0;
+}
+.header img {
+  width: 268px;
+  height: 33px;
+  margin: 23px 157px;
+}
+.header ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar a:hover, .navbar li:hover, .dropdown:hover .dropbtn {
+  color: #00B39B }
+.header li {
+  padding: 34px;
+  color: #ababab;
+}
+.dropdown-content{display: none;
+  color: #ababab;
+  position: absolute;
+  margin-left: -100px;
+  background: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(206, 100, 100, 0.2);
+  z-index: 1;}
+}
+.dropbtn{color: #ababab;
+  display: block;}
+.dropdown-content a {display:block;
+float:none}
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/*main css*/
+.marg {
+  margin-top: 120px;
+}
+/* introduction CSS */
+.inroduction {
+  margin: 0% 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.inroduction div {
+  display: flex;
+}
+.inroduction h1 {
+  margin: 5%;
+  color: #00b39b;
+  font-size: 2.125rem;
+}
+.inroduction div p {
+  line-height: 1.5;
+  color: gray;
+  /* width: 41%; */
+  padding: 2%;
+}
+/*css docter and patien part*/
+.patdoc {
+  display: flex;
+  margin: 2% 10%;
+}
+.patient {
+  background: #00ccb1;
+  border-radius: 10px;
+  padding: 1.375em 2.5em 0;
+  overflow: hidden;
+  margin: 2.5%;
+}
+.patient div {
+  display: flex;
+}
+
+.doctor {
+  background: #3d83df;
+  border-radius: 10px;
+  padding: 1.375em 2.5em 0;
+  overflow: hidden;
+  margin: 2.5%;
+}
+.titre {
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  letter-spacing: 0.3px;
+  font-size: 0.875em;
+  font-weight: 400;
+  margin: 0;
+  color: hsla(0, 0%, 100%, 0.7);
+}
+.ph {
+  margin: 1em 0;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 0.3px;
+  font-size: 1.625em;
+  color: #fff;
+  margin-top: 0.3em;
+}
+.natio {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  color: #333;
+  background: #fff;
+  font-weight: 600;
+  cursor: pointer;
+  margin: 0px -7% 347px;
+}
+
+.contry:hover {
+  box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, 0.2);
+}
+/*css brand section*/
+.brand {
+  display: flex;
+  padding: 0 0 0 73px;
+  margin: 0px 0px 0px 40px;
+}
+.brand p {
+  float: left;
+  width: 18%;
+  font-size: 1.7em;
+  margin: -1.75em 0;
+  padding: 2em;
+  color: #00b39b;
+}
+.brand li {
+  display: inline-flex;
+
+  list-style-type: none;
+  fill: hsla(0, 0%, 67%, 0.7);
+}
+.brand svg {
+  width: 120px;
+  margin: 0 40px;
+}
+.brands__logos li:hover{fill: #00b39b}
+/*css platforme part*/
+.platform {
+  background: #e5faf8;
+  display: flex;
+  padding: 1.875em 0 0.625em;
+}
+.plat1 {
+  margin: 0px 60px 0px 170px;
+  display: flex;
+  flex-direction: column;
+}
+.plat1 h1 {
+  font-size: 1.8rem;
+  color: #00b39b;
+}
+#imgsigle {
+  height: 300px;
+  width: 292px;
+  margin: 2px 0px 0px 0px;
+}
+.plat1 p {
+  max-width: 415px;
+  font-size: 0.875em;
+  line-height: 1.7142857143;
+}
+.plat2 {
+  display: flex;
+}
+.placadre1 {
+  width: 200px;
+  height: 200px;
+  align-items: center;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+  text-align: center;
+  font-size: 0.8125em;
+  margin: 26px 20px 5px 0px;
+}
+.placadre2 {
+  width: 170px;
+  height: 200px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.05);
+  text-align: center;
+  margin: 0px 0px 22px 0px;
+  font-size: 0.8125em;
+}
+.plat2 h2 {
+  font-size: 1.8461538462em;
+  color: #00b39b;
+  margin: 0.5em 0;
+}
+
+h3 {
+  font-family: Helvetica, Helvetica, Arial, sans-serif;
+
+  font-size: 0.7125em;
+
+  color: #747474;
+}
+/*css improve part*/
+.improve {
+  text-align: center;
+}
+.improve p {
+  font-size: 1.8461538462em;
+  color: #00b39b;
+  margin: 0.5em 0;
+}
+
+/* CSS contries part */
+.contries {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2% 10%;
+  justify-content: space-between;
+}
+.contry {
+  margin-bottom: 2%;
+  border: gray 2px solid;
+  border-radius: 6px;
+}
+.contry div {
+  display: flex;
+  justify-content: space-between;
+  padding: 6%;
+  display: flex;
+}
+/*css footer part*/
+.foot {
+  font-size: 0.75em;
+  color: #ababab;
+  text-align: center;
+  padding: 20px;
+}
